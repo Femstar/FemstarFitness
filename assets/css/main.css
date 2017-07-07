@@ -85,6 +85,37 @@
 
 /*fadein*/
 
+.LgFont{
+	position: absolute;
+	font-size:200px;
+	padding-right:55%;
+	z-index: 1;
+   overflow: hidden;
+}
+
+.relaDiv{
+	position:relative;
+}
+/*#background {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+   overflow: hidden;
+}*/
+
+
+
+
+
+
+
+.zind{
+	z-index:5;
+}
+
 #fadein h1 {
     opacity: 0;
     margin-top: 25px;
@@ -98,18 +129,11 @@
 }​
 
 
-.bgphoto{
-	background-image: url("./images/power-rope.png");
-	background-repeat: no-repeat;
-	background-position: 25% 50%; 
-}
+
 .orange{
 	color:orange;
 }
-.LgFont{
-	font-size:200px;
-	padding-right:15%;
-}
+
 
 
 /* Spinner */
@@ -551,18 +575,14 @@
 				font-size: 12pt;
 				line-height: 1.5em;
 			}
+			
 
-
-
-.orange{
-	color:orange;
-}
-.LgFont{
-	font-size:100px;
-	padding-right:15%;
-}
 
 		}
+
+	.LgFont{
+				display:hidden;
+			}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
@@ -586,15 +606,6 @@
 		h2 {
 			font-size: 1.5em;
 		}
-
-		.orange{
-			color:orange;
-		}
-		.LgFont{
-			font-size:100px;
-			padding-right:15%;
-		}
-
 
 	}
 
@@ -814,6 +825,8 @@
 
 		@media screen and (max-width: 736px) {
 
+
+
 			form .field {
 				margin: 0 0 1em 0;
 			}
@@ -843,6 +856,7 @@
 				form .field.half.first {
 					padding: 0;
 				}
+			
 
 		}
 
@@ -2198,6 +2212,5 @@
 			}
 
 		}
-
 
 
