@@ -132,6 +132,57 @@
 
 .orange{
 	color:orange;
+	
+}
+
+ul.a {
+    list-style-type: circle !important;
+    padding:25px;
+    color:orange;
+}
+
+.orange{
+	color:orange !important;
+
+}
+.leftPad{
+	padding-left:350px;
+}
+
+.rotate{
+		 -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
+}
+.OrangeBtn{
+	background-color: orange !important;
+}
+.logotext{
+	padding-top:32px !important;
+}
+/*.LgFont{
+	font-size:200px;
+	padding-right:15%;
+}*/
+.white{
+	color:white;
+	padding-right:3px;
+
+}
+.whitecolor{
+	color:white;
+}
+.bgblack{
+	background-color:#666;
+	padding-left:20px;
+	width:110%;
+	float:left;
+}
+.nav{
+	margin-left:25%;
+}
+.grey{
+	background-color:grey;
 }
 
 
